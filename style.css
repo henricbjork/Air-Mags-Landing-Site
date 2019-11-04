@@ -108,6 +108,37 @@
 
 }
 
+/* youtube page start */
+
+.youtubeBlack{
+    width: auto;
+    height: 50vh;
+    background-color: #000;
+    
+}
+
+.youtubeWhite{
+    width: auto;
+    height: 50vh;
+    background-color: #FFF;
+}
+
+.youtubeVideo{
+    width: 400px;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.youtubeWhite h3{
+    color: #000;
+    padding-top: 160px;
+    text-align: center;
+}
+
+
+
+/* youtube page start */
+
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
