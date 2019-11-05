@@ -9,6 +9,7 @@
         background-color: black;
         color: white;
         font-family: 'Futura';
+        font-style: italic;
     }
     main {
         height: 100vh;
@@ -34,42 +35,29 @@
         width: 325px;
         height: 390px;
     }
-
     /* Features Container */
-
 .featuresContainer{
     width: auto;
     height: 85vh;
     background-color: #FFF;
 }
-
 .featuresContainerBlack{
     width: auto;
     height: 15vh;
     background-color: #000;
-
-
 }
-
 .featuresContainer h1 {
-
     font-size: 45px;
     text-align: center;
     color: black;
     padding-top: 30px;
-
 }
-
 .featuresContainer img {
-
     width: 400px;
     height: auto;
     padding-top: 20px;
     padding-right: 30px;
- 
-
 }
-
 .box{
     width: 32px;
     height: 32px;
@@ -77,17 +65,12 @@
     border-radius: 3px;
     display:inline-block;
     margin-left: 40px;
-   
-
- 
 }
-
 .box p {
     color: black; 
 }
 
 .featuresText {
-
     color: #000;
     margin-left: 30px;
     margin-top: 5px;
@@ -97,48 +80,68 @@
     text-align: center;
     padding-top: 6px;
     font-size: 13px;
-
 }
 
 .featureBox {
-
     display: flex;
     margin: 10px;
-
-
 }
 
 /* youtube page start */
-
 .youtubeBlack{
     width: auto;
     height: 50vh;
-    background-color: #000;
-    
+    background-color: #000;   
 }
-
 .youtubeWhite{
     width: auto;
     height: 50vh;
     background-color: #FFF;
 }
-
 .youtubeVideo{
     width: 400px;
     margin-top: 200px;
     padding: 20px;
 }
-
 .youtubeWhite h3{
     color: #000;
     padding-top: 160px;
     text-align: center;
 }
+/* youtube page end */
+/* buy page start */
+.buyWhite{
+    width: auto;
+    height: 25vh;
+    background-color: #fff;
+}
+.buyBlack{
+    width: auto;
+    height: 70vh;
+    background-color: #000;  
+    display: flex;
+}
+.buyContainer P{
+    text-align: center;
+}
+.BuyButton{
+    width: 130px; 
+    height: 50px;
+    background-color: #3ACFCD;
+    margin-left: 135px;
+    margin-top: 400px;
+    display: inline-block;
+}
+.BuyButton p{
+    font-family: 'Futura';
+    text-align: center;
+    font-size: 25px;
+    padding-top: 7px;
+}
 
 
 
-/* youtube page start */
-
+/* buy page end */
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
