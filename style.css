@@ -3,7 +3,6 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
-
 body {
     background-color: black;
     color: white;
@@ -51,12 +50,49 @@ nav {
 
 /* Features Container */
 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+        color: white;
+        font-family: 'Futura';
+        font-style: italic;
+    }
+    main {
+        height: 100vh;
+    }
+    header {
+        font-size: 45px;
+        border: 1px solid black;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    header img {
+        width: 70px;
+        height: 70px;
+        
+    }
+    .airMags {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .airMags img {
+        width: 325px;
+        height: 390px;
+    }
+    /* Features Container */
+  
 .featuresContainer{
     width: auto;
     height: 85vh;
     background-color: #FFF;
 }
-
 .featuresContainerBlack{
     width: auto;
     height: 15vh;
@@ -153,7 +189,63 @@ nav {
         height: 755px;
         width: 630px;
     }
-    
+}
+
+/* youtube page start */
+.youtubeBlack{
+    width: auto;
+    height: 50vh;
+    background-color: #000;   
+}
+.youtubeWhite{
+    width: auto;
+    height: 50vh;
+    background-color: #FFF;
+}
+.youtubeVideo{
+    width: 400px;
+    margin-top: 200px;
+    padding: 20px;
+}
+.youtubeWhite h3{
+    color: #000;
+    padding-top: 160px;
+    text-align: center;
+}
+/* youtube page end */
+/* buy page start */
+.buyWhite{
+    width: auto;
+    height: 25vh;
+    background-color: #fff;
+}
+.buyBlack{
+    width: auto;
+    height: 70vh;
+    background-color: #000;  
+    display: flex;
+}
+.buyContainer P{
+    text-align: center;
+}
+.BuyButton{
+    width: 130px; 
+    height: 50px;
+    background-color: #3ACFCD;
+    margin-left: 135px;
+    margin-top: 400px;
+    display: inline-block;
+}
+.BuyButton p{
+    font-family: 'Futura';
+    text-align: center;
+    font-size: 25px;
+    padding-top: 7px;
+}
+
+
+
+/* buy page end */
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
