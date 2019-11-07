@@ -90,7 +90,7 @@ nav {
     margin-left: 30px;
     margin-top: 5px;
 }
-.festuresNumbers{
+.featuresNumbers{
     text-align: center;
     padding-top: 6px;
     font-size: 13px;
@@ -219,6 +219,27 @@ nav {
     .airMags img {
         height: 755px;
         width: 630px;
+    }
+    .featuresContainer h1 {
+        font-size: 5em;
+        font-style: italic;
+        text-transform: uppercase;
+        text-align: left;
+        margin-left: 170px;
+    }
+    .imageAndBoxContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .imageAndBoxContainer img {
+        width: 550px;
+        height: 550px;
+    }
+    .featureBoxContainer {
+        margin-top: 150px;
+        font-style: italic;
+        margin-right: 100px;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
