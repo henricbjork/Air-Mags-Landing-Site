@@ -99,6 +99,73 @@ nav {
     display: flex;
     margin: 10px;
 }
+/* youtube page start */
+.youtubeBlack{
+    width: auto;
+    height: 50vh;
+    background-color: #000;   
+}
+.youtubeWhite{
+    width: auto;
+    height: 50vh;
+    background-color: #FFF;
+}
+.youtubeVideo{
+    width: 400px;
+    margin-top: 200px;
+    padding: 20px;
+}
+.youtubeWhite h3{
+    color: #000;
+    padding-top: 160px;
+    text-align: center;
+}
+/* youtube page end */
+/* buy page start */
+.buyWhite{
+    width: auto;
+    height: 20vh;
+    background-color: #fff;
+}
+.buyWhite img{
+    width: auto;
+    height: 400px;
+    margin-left: 15px;
+    margin-top: 90px;
+ 
+}
+
+.buyBlack{
+    width: auto;
+    height: 80vh;
+    background-color: #000;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.price{
+    text-align: center;
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+.BuyButton{
+    width: 130px; 
+    height: 50px;
+    background-color: #3ACFCD;
+    display: inline-block;
+    margin-left: 135px;
+    margin-bottom: 60px;
+}
+.BuyButton p{
+    font-family: 'Futura';
+    text-align: center;
+    font-size: 25px;
+    padding-top: 6px;
+}
+
+
+
 @media only screen and (min-width: 992px) {
     header {
         display: flex;
@@ -153,6 +220,8 @@ nav {
         height: 755px;
         width: 630px;
     }
+
+
     
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
