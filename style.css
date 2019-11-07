@@ -124,12 +124,20 @@ nav {
 /* buy page start */
 .buyWhite{
     width: auto;
-    height: 25vh;
+    height: 20vh;
     background-color: #fff;
 }
+.buyWhite img{
+    width: auto;
+    height: 400px;
+    margin-left: 15px;
+    margin-top: 90px;
+ 
+}
+
 .buyBlack{
     width: auto;
-    height: 70vh;
+    height: 80vh;
     background-color: #000;  
     display: flex;
     flex-direction: column;
@@ -140,7 +148,6 @@ nav {
     margin-right: 15px;
     padding: 10px;
     font-size: 20px;
- 
 }
 .BuyButton{
     width: 130px; 
@@ -149,15 +156,12 @@ nav {
     display: inline-block;
     margin-left: 135px;
     margin-bottom: 60px;
-
 }
 .BuyButton p{
     font-family: 'Futura';
     text-align: center;
     font-size: 25px;
     padding-top: 6px;
-    
- 
 }
 
 
