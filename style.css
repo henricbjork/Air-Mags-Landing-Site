@@ -52,11 +52,14 @@ nav {
 /* Features Container */
 
 .featuresContainer{
+    font-style: italic;
     width: auto;
     height: 85vh;
     background-color: #FFF;
 }
-
+.featureBoxContainer {
+    margin-bottom: 30px;
+}
 .featuresContainerBlack{
     width: auto;
     height: 15vh;
@@ -90,7 +93,6 @@ nav {
 }
 .featuresText {
     color: #000;
-    font-style: italic;
     margin-left: 30px;
     margin-top: 5px;
 }
@@ -115,7 +117,8 @@ nav {
     background-color: #FFF;
 }
 .youtubeVideo{
-    width: 400px;
+    width: 100%;
+    height: 300px;
     margin-top: 200px;
     padding: 20px;
 }
@@ -130,15 +133,15 @@ nav {
     width: auto;
     height: 20vh;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
 }
 .buyWhite img{
-    width: auto;
-    height: 400px;
-    margin-left: 15px;
+    width: 350px;
+    height: 350px;
     margin-top: 90px;
  
 }
-
 .buyBlack{
     width: auto;
     height: 80vh;
@@ -146,20 +149,17 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-}
-.price{
     text-align: center;
-    margin-right: 15px;
-    padding: 10px;
-    font-size: 20px;
 }
 .buyButton {
+    font-style: italic;
     width: 130px; 
     height: 50px;
     background-color: #3ACFCD;
     color: white;
     display: inline-block;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
+    margin-top: 30px;
     font-family: 'Futura';
     text-align: center;
     font-size: 25px;
@@ -231,8 +231,6 @@ nav {
         font-size: 5em;
         font-style: italic;
         text-transform: uppercase;
-        text-align: left;
-        margin-left: 170px;
     }
     .imageAndBoxContainer {
         display: flex;
